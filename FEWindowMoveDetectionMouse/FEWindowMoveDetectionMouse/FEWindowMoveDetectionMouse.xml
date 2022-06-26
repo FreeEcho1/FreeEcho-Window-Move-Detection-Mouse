@@ -124,7 +124,7 @@
             <summary>
             マウスでウィンドウ移動の検知を開始
             </summary>
-            <exception cref="T:System.ComponentModel.Win32Exception">Win32 error.</exception>
+            <exception cref="T:System.ComponentModel.Win32Exception">Win32エラーコードの例外</exception>
         </member>
         <member name="M:FreeEcho.FEWindowMoveDetectionMouse.MouseMoveWindowDetection.Stop">
             <summary>

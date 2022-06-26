@@ -1,15 +1,11 @@
-﻿namespace FreeEcho
+﻿namespace FreeEcho.FEWindowMoveDetectionMouse;
+
+[System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
+internal struct MSLLHOOKSTRUCT
 {
-    namespace FEWindowMoveDetectionMouse
-    {
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
-        internal struct MSLLHOOKSTRUCT
-        {
-            public POINT pt;
-            public uint mouseData;
-            public uint flags;
-            public uint time;
-            public System.IntPtr dwExtraInfo;
-        }
-    }
+    public POINT pt;
+    public uint mouseData;
+    public uint flags;
+    public uint time;
+    public System.IntPtr dwExtraInfo;
 }

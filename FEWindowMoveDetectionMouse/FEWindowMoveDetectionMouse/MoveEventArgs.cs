@@ -1,12 +1,8 @@
-﻿namespace FreeEcho
+﻿namespace FreeEcho.FEWindowMoveDetectionMouse;
+
+/// <summary>
+/// マウスでウィンドウが移動された時のイベントデータ
+/// </summary>
+public class MoveEventArgs
 {
-    namespace FEWindowMoveDetectionMouse
-    {
-        /// <summary>
-        /// マウスでウィンドウが移動された時のイベントデータ
-        /// </summary>
-        public class MoveEventArgs
-        {
-        }
-    }
 }

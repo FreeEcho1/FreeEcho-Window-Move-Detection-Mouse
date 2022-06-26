@@ -1,6 +1,9 @@
 ﻿///////////////////////////////////////////
-// 「FreeEcho Mouse Move Window Detection」 history
+// 「FreeEcho Window Move Detection Mouse」 history
 ///////////////////////////////////////////
+
+Version 1.2.0 - 2022/6/26
+ - 修正。
 
 Version 1.1.0 - 2021/7/11
  - 「.Net Framework」から「.Net」に変更。
